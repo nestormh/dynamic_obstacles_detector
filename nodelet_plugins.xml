@@ -1,0 +1,10 @@
+<library path="lib/libdynamic_obstacles_detector">
+    <class name="dynamic_obstacles_detector/DynamicObstaclesDetectorNodelet"
+           type="dynamic_obstacles_detector::DynamicObstaclesDetectorNodelet"
+           base_class_type="nodelet::Nodelet">
+        <description>
+            This nodelet is able to detect differences in a point cloud between frames, 
+            obtaining which points correspond to dynamic obstacles and which to static ones. 
+        </description>
+    </class>
+</library>
